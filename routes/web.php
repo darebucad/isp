@@ -19,3 +19,6 @@ Route::get('/Categories', 'CategoriesController@Index');
 
 //Products
 Route::get('/Products', 'ProductsController@Index');
+
+// API
+Route::get('/api/getCategories', 'APIController@getCategories')->name("api.getCategories");

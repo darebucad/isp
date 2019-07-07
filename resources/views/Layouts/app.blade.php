@@ -28,6 +28,7 @@
 
     <!-- Custom Theme Style -->
     <link href="{{asset('css/custom.min.css')}}" rel="stylesheet">
+    @yield('css')
   </head>
 
   <body class="nav-md">
@@ -249,6 +250,7 @@
 
     <!-- Custom Theme Scripts -->
     <script src="{{asset('js/custom.min.js')}}"></script>
-	
+  
+    @yield('js')
   </body>
 </html>
