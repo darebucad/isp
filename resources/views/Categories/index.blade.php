@@ -41,6 +41,7 @@
   <script>
     $(document).ready(function(){
       $("#tblCategories").DataTable({
+        "pageLength": 30,
         "processing": true,
         "serverSide": true,
         "ajax": "{{route('api.getCategories')}}",
